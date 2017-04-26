@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Battle	App.js	/^var Battle = require('.\/Battle');$/;"	v
+Home	App.js	/^var Home = require('.\/Home');$/;"	v
+Link	Home.js	/^var Link  = require('react-router-dom').Link;$/;"	v
+Nav	App.js	/^var Nav = require('.\/Nav');$/;"	v
+Nav	Nav.js	/^function Nav () {$/;"	f
+NavLink	Nav.js	/^var NavLink = require('react-router-dom').NavLink;$/;"	v
+Popular	App.js	/^var Popular = require('.\/Popular');$/;"	v
+PropTypes	Popular.js	/^var PropTypes = require('prop-types');$/;"	v
+React	App.js	/^var React = require('react');$/;"	v
+React	Battle.js	/^var React = require('react');$/;"	v
+React	Home.js	/^var React = require('react');$/;"	v
+React	Nav.js	/^var React = require('react');$/;"	v
+React	Popular.js	/^var React = require('react');$/;"	v
+ReactRouter	App.js	/^var ReactRouter = require('react-router-dom');$/;"	v
+RepoGrid	Popular.js	/^  function RepoGrid (props) {$/;"	f
+Route	App.js	/^var Route = ReactRouter. Route;$/;"	v
+Router	App.js	/^var Router = ReactRouter.BrowserRouter;$/;"	v
+SelectLanguage	Popular.js	/^function SelectLanguage(props) {$/;"	f
+api	Popular.js	/^var api = require('..\/utils\/api');$/;"	v
+repos	Popular.js	/^        repos: null$/;"	p	class:state
+repos	Popular.js	/^    repos: PropTypes.array.isRequired$/;"	p	class:RepoGrid.propTypes
+selectedLanguage	Popular.js	/^        selectedLanguage: 'All',$/;"	p	class:state
+selectedLanguage	Popular.js	/^    selectedLanguage: PropTypes.string.isRequired,$/;"	p	class:SelectLanguage.PropTypes
