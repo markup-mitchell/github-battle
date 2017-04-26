@@ -1,4 +1,5 @@
 var React = require('react');
+
 var PropTypes = require('prop-types');
 
 class PlayerInput extends React.Component {
@@ -55,7 +56,7 @@ class PlayerInput extends React.Component {
 }
 
 class Battle extends React.Component {
-  constructor(props) 
+  constructor(props)
     super(props);
 
     this.state = {
