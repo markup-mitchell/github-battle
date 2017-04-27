@@ -31,8 +31,7 @@ class PlayerInput extends React.Component {
 
   render() {
     return (
-      <form className='column' onSubmit={handleSubmit}>
-      <form className='column'>
+      <form className='column' onSubmit={this.handleSubmit}>
         <label classname='header' htmlFor='username'>
           {this.props.label}
         </label>
@@ -48,15 +47,15 @@ class PlayerInput extends React.Component {
         className='button'
         type='submit'
         disabled={!this.state.username}>
-        Submit
-      </button>
+          Submit
+        </button>
       </form>
     )
   }
 }
 
 class Battle extends React.Component {
-  constructor(props)
+  constructor(props) {
     super(props);
 
     this.state = {
@@ -65,8 +64,8 @@ class Battle extends React.Component {
       playerOneImage: null,
       playerTwoName: null
     }
-    this.handleSubmit = this.handleSubmit.bind(this);
-
+  this.handleSubmit = this.handleSubmit.bind(this);
+  };
 
 
     handleSubmit (id,username) {
