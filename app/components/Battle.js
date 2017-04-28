@@ -32,7 +32,7 @@ class PlayerInput extends React.Component {
   render() {
     return (
       <form className='column' onSubmit={this.handleSubmit}>
-        <label classname='header' htmlFor='username'>
+        <label className='header' htmlFor='username'>
           {this.props.label}
         </label>
       <input
